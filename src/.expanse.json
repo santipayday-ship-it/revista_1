@@ -53,54 +53,56 @@
         "paused": false
       }
     },
-    "25f71e35-14f8-45e7-983a-8f07622737b1": {
+    "3f646416-ca03-4b43-90da-69241bb4d7ed": {
       "components": {
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
           "parameters": {
-            "cubo": 0.75,
+            "cubo": 0.684,
             "demora": 0,
             "esGltf": false,
-            "esTextura": false,
-            "esVideo": false
+            "esTextura": true,
+            "esVideo": true
           }
         }
       },
       "geometry": {
-        "type": "box",
+        "type": "plane",
         "width": 1,
-        "height": 1,
-        "depth": 1
+        "height": 0.6101694915254238
       },
-      "id": "25f71e35-14f8-45e7-983a-8f07622737b1",
+      "id": "3f646416-ca03-4b43-90da-69241bb4d7ed",
       "material": {
-        "type": "basic",
-        "color": "#7611b6",
-        "textureFiltering": "sharp"
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/WhatsApp_Video_2026-11-25_at_8_12_43_PM.mp4"
+        }
       },
-      "name": "Cubo",
-      "order": 3.5,
+      "name": "WhatsApp_Video_2026-11-25_at_8_12_43_PM",
+      "order": 6.5,
       "parentId": "8e9df1bc-e717-4dd0-abea-2c7afd56a1d5",
       "position": [
         0,
-        0.5,
-        -2.5
+        0.059,
+        0
       ],
       "rotation": [
-        0,
-        0,
-        0,
-        1
+        -0.7071067811865475,
+        -9.676441861234024e-49,
+        -9.676441861234023e-49,
+        0.7071067811865476
       ],
       "scale": [
         1,
         1,
         1
       ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
+      "videoControls": {
+        "loop": true,
+        "paused": false
       }
     },
     "56401474-fe8f-429a-b001-3920b5f44b43": {
@@ -142,6 +144,34 @@
       "material": null,
       "name": "Marcador · imagen_1",
       "order": 4.5,
+      "parentId": "8e9df1bc-e717-4dd0-abea-2c7afd56a1d5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "6e723b25-fda4-44bf-874b-3a4b35f3e4cd": {
+      "components": {},
+      "geometry": null,
+      "id": "6e723b25-fda4-44bf-874b-3a4b35f3e4cd",
+      "imageTarget": {
+        "name": "WhatsApp_Image_2026-11-25_at_8_12_42_PM"
+      },
+      "material": null,
+      "name": "Marcador · WhatsApp_Image_2026-11-25_at_8_12_42_PM",
+      "order": 5.5,
       "parentId": "8e9df1bc-e717-4dd0-abea-2c7afd56a1d5",
       "position": [
         0,

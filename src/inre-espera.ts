@@ -6,7 +6,7 @@
  * lienzo. Si algo falla dentro, se retira sola para no dejar la pantalla tapada.
  */
 
-const MARCADORES = ["imagen_1"]
+const MARCADORES = ["imagen_1","WhatsApp_Image_2026-11-25_at_8_12_42_PM"]
 
 /**
  * Cuenta las descargas en curso de archivos del proyecto (assets/ o blobs) para
