@@ -1,6 +1,6 @@
 import * as ecs from '@8thwall/ecs'
-import marcador0 from '../image-targets/imagen_1.json'
-import marcador1 from '../image-targets/WhatsApp_Image_2026-11-25_at_8_12_42_PM.json'
+import marcador0 from '../image-targets/WhatsApp_Image_2026-11-25_at_8_12_42_PM.json'
+import marcador1 from '../image-targets/imagen_1.json'
 
 /**
  * Carga los marcadores de imagen en el motor, y se queda vigilando que sigan puestos.
